@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo</title>
+  <link rel="stylesheet" href="styleSr.css">
+</head>
+<body>
+  <header>
+    <h1>TOP 5 +</h1>
+  </header>
+
+  <section class="gallery">
+    <div class="fabric" onclick="showDetails(
+        'Renda JG04', 
+        'COMPOSIÇÃO (Principal): 86% Poliamida / 14% Elastano.\n\nLARGURA TOTAL: 0.18 m.\n\nGRAM/M: 20 g/m.\n\nRENDIMENTO: 50.0 m/Kg.\n\nELASTICIDADE: 138% X NA.', 
+        './assets/jg04vebig.jpg'
+      )">
+      <img src="./assets/jg04vermelho.jpg" alt="Tecido 1">
+      <div class="overlay">Ver detalhes</div>
+    </div>
+
+    <div class="fabric" onclick="showDetails(
+          'RENDA JG04', 
+          'COMPOSIÇÃO (Principal): 86% Poliamida / 14% Elastano.\n\nLARGURA TOTAL: 0.18 m.\n\nGRAM/M: 20 g/m.\n\nRENDIMENTO: 50.0 m/Kg.\n\nELASTICIDADE: 138% X NA.',
+          './assets/jg04prbig.jpg'
+      )">
+      <img src="./assets/jg04preto.jpg" alt="Tecido 2">
+      <div class="overlay">Ver detalhes</div>
+    </div>
+
+    <div class="fabric" onclick="showDetails(
+        'LIGANETE ESTAMP.', 
+        'COMPOSIÇÃO (Principal): 96% Poliester / 4% Elastano.\n\nLARGURA TOTAL: 1.5 m.\n\nGRAM/M: 270 g/m.\n\nRENDIMENTO: 3.7 m/Kg.\n\nELASTICIDADE: 50% X 105%.',
+        './assets/jfbig.jpg'
+      )">
+      <img src="./assets/jf.jpg" alt="Tecido 3">
+      <div class="overlay">Ver detalhes</div>
+    </div>
+
+    <div class="fabric" onclick="showDetails(
+        'SUEDE CANELADO',  
+        'COMPOSIÇÃO (Principal): 96% Poliester / 4% Elastano.\n\nLARGURA TOTAL: 1.45 m.\n\nGRAM/M: 580 g/m.\n\nLARGURA ÚTIL: 1.4 m\n\nELASTICIDADE: NA X NA.',
+        './assets/suedecbig.jpg'
+      )">
+      <img src="./assets/suedec.jpg" alt="Tecido 4">
+      <div class="overlay">Ver detalhes</div>
+    </div>
+
+    <div class="fabric" onclick="showDetails(
+        'Renda JG04', 
+        'COMPOSIÇÃO (Principal): 86% Poliamida / 14% Elastano.\n\nLARGURA TOTAL: 0.18 m.\n\nGRAM/M: 20 g/m.\n\nRENDIMENTO: 50.0 m/Kg.\n\nELASTICIDADE: 138% X NA.', 
+        './assets/jg04big.jpg'
+      )">
+      <img src="./assets/jg04marinho.jpg" alt="Tecido 5">
+      <div class="overlay">Ver detalhes</div>
+    </div>
+  
+  </section>
+
+  <div id="detailsModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="fTec">
+        <h2 id="fabricTitle"></h2>
+        <p id="fabricDescription"></p>
+        <a href="" target="_blank">
+          Solicite seu Catálogo 📥
+        </a>
+
+      </div>
+      <img id="bI" src="" alt="back image">
+    </div>
+  </div>
+  <footer>
+    <a href="https://wa.me/5522...">
+      Solicite um catálogo do seu interesse!
+    </a>
+    <small>M.Gomes &copy;</small>
+  </footer>
+
+  <script src="scriptSr.js"></script>
+</body>
+</html>
