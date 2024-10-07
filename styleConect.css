@@ -157,8 +157,9 @@ footer{
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -20px -50px;
+    margin: -55px -50px;
     opacity: 0;
+    z-index: 2;
 }
 .element{
     width: 20px;
