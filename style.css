@@ -22,6 +22,16 @@ p{
 hr{
     border: rgb(145, 112, 28) solid 1px;
 }
+#introLogo{
+    position: absolute;
+    height: 200px;
+    width: auto;
+    bottom: 12px;
+    right: 0;
+    opacity: .3;
+    border: solid rgb(145, 112, 28) 1px;
+    border-radius: 0 30px 0 30px;
+}
 #banner{
     position: absolute;
     margin-top: -1vh;
