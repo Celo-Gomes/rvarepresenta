@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function(){
     const ipZap = document.querySelector('#zap')
     send.onclick = () =>{
         if(ipName.value && ipZap.value && mail.checkValidity()){
-                loader.style.opacity = '1'
-                let elements = document.querySelectorAll(".element")
-                elements.forEach((element)=>{
-                    element.classList.add('animate')
-                })    
-        }
+            loader.style.opacity = '1'
+            let elements = document.querySelectorAll(".element")
+            elements.forEach((element)=>{
+                element.classList.add('animate')
+            })    
+        }  
     }
 })
