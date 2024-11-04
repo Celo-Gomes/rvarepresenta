@@ -3,7 +3,7 @@ function showDetails(title, description, backImage) {
     document.getElementById('fabricTitle').innerText = title;
     document.getElementById('fabricDescription').innerText = description;
     document.getElementById('bI').src = backImage
-    document.querySelector('a').href = "https://wa.me/5522998440546?text=Solicitação%20artigo: " + title 
+    document.querySelector('a').href = "https://wa.me/5522981546027?text=Solicitação%20artigo: " + title 
     modal.style.display = 'flex';
 }
   
