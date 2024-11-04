@@ -1,5 +1,5 @@
 
-// Função para verificar se o e-mail foi enviado
+// Função para verificar se o e-mail foi enviado, executada quando a pagina principal é iniciada
 function checkEmailSent() {
     const params = new URLSearchParams(window.location.search);
     const emailSent = params.get('email'); // Verifica se o parâmetro 'email' está presente
